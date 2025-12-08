@@ -79,3 +79,5 @@ class TestCourses:
             min_score='9',
             estimated_time='8 hours'
         )
+        courses_list_page.course_view.menu.click_edit(index=0)
+        create_course_page.create_course_form.description_textarea.check_have_value('Playwright + Python course')
