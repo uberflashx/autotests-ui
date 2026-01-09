@@ -10,4 +10,5 @@ with sync_playwright() as playwright:
     registration_link.hover()
 
 
+
     page.wait_for_timeout(3000)
